@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk Kami</title>
+     <style>
+        body {
+            background-color: blueviolet;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .centered-text {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 15px;
+            background-color: darkmagenta;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: rebeccapurple;
+            color: white;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Tiga kolom */
+            gap: 10px;
+            text-align: center;
+            margin: 20px auto;
+        }
+
+        .grid-container img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white; /* Warna latar tabel */
+            color: black; /* Warna teks tabel */
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <img src="logo.png" alt="Logo Sweety Bites" width="300" height="250">
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="saran.html">Saran</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="content">
+        <h1>Produk Kami</h1>
+        <div class="grid-container">
+            <figure>
+                <img src="Fudgy Brownies Original.jpg" alt="Fudgy Brownies Original">
+                <figcaption>Fudgy Brownies Original (Isi 12 pcs)</figcaption>
+            </figure>
+            <figure>
+                <img src="Fudgy Brownies 5 Rasa.jpeg" alt="Fudgy Brownies 5 Rasa">
+                <figcaption>Fudgy Brownies 5 Rasa (Isi 25 pcs)</figcaption>
+            </figure>
+            <figure>
+                <img src="Brownies Bites.jpg" alt="Brownies Bites">
+                <figcaption>Brownies Bites</figcaption>
+            </figure>
+            <figure>
+                <img src="Brownies Lumer.jpg" alt="Brownies Lumer">
+                <figcaption>Brownies Lumer</figcaption>
+            </figure>
+            <figure>
+                <img src="Birthday Cake.jpg" alt="Birthday Cake">
+                <figcaption>Birthday Cake Custom</figcaption>
+            </figure>
+            <figure>
+                <img src="Dessert Box.jpg" alt="Dessert Box">
+                <figcaption>Dessert Box</figcaption>
+            </figure>
+        </div>
+
+        <h2>Pricelist</h2>
+        <table>
+            <tr>
+                <th>Nama Produk</th>
+                <th>Harga</th>
+                <th>Stok</th>
+            </tr>
+            <tr>
+                <td>Fudgy Brownies Original Isi 12 pcs</td>
+                <td>Rp 50.000</td>
+                <td>10 Box</td>
+            </tr>
+            <tr>
+                <td>Fudgy Brownies 5 Rasa Isi 25 pcs</td>
+                <td>Rp 75.000</td>
+                <td>10 Box</td>
+            </tr>
+            <tr>
+                <td>Brownies Bites</td>
+                <td>Rp 35.000</td>
+                <td>20 Cup</td>
+            </tr>
+            <tr>
+                <td>Brownies Lumer</td>
+                <td>Rp 30.000</td>
+                <td>15 Box</td>
+            </tr>
+            <tr>
+                <td>Birthday Cake</td>
+                <td>Mulai dari Rp 75.000</td>
+                <td>5 Cake</td>
+            </tr>
+        </table>
+
+        <h2>How To Order?</h2>
+        <p>Untuk pemesanan dan informasi lebih lanjut bisa menghubungi Contact Person yang tertera berikut</p>
+        <a href="https://wa.me/62895422594600" style="color: yellow;">Click here to Chat</a>
+    </section>
+</body>
+</html>
